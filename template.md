@@ -17,25 +17,24 @@ Table of Contents
   * 1.5 [Document Overview](#15-document-overview)
 * 2 [Design](#2-overall-description)
   * 2.1 [Stakeholder concerns](#21-stakeholder-concerns)
-  * 2.2 [Selected Viewpoints](#23-selected-viewpoints)
-    * 2.2.1 [Context](#231-context)
-    * 2.2.2 [Composition](#232-composition)
-    * 2.2.3 [Logical](#233-logical)
-    * 2.2.4 [Dependency](#234-dependency)
-    * 2.2.5 [Information](#235-information)
-    * 2.2.6 [Patterns](#236-patterns)
-    * 2.2.7 [Interface](#237-interface)
-    * 2.2.8 [Structure](#238-structure)
-    * 2.2.9 [Interaction](#239-interaction)
-    * 2.2.10 [State dynamics](#2310-state-dynamics)
-    * 2.2.11 [Algorithm](#2311-algorithm)
-    * 2.2.12 [Interaction](#2312-interaction)
-    * 2.2.13 [Resources](#2313-resources)
-    * 2.2.14 [Physical](#2314-physical)
-    * 2.2.15 [Deployment](#2315-deployment)
-    * 2.2.16 [Concurrency](#2316-concurrency)
-    * 2.2.17 [Behavioral](#2317-behavioral)
-  * 2.4 [Design Views](#24-design-views)
+  * 2.2 [Selected Viewpoints](#22-selected-viewpoints)
+    * 2.2.1 [Context](#221-context)
+    * 2.2.2 [Composition](#222-composition)
+    * 2.2.3 [Logical](#223-logical)
+    * 2.2.4 [Dependency](#224-dependency)
+    * 2.2.5 [Information](#225-information)
+    * 2.2.6 [Patterns](#226-patterns)
+    * 2.2.7 [Interface](#227-interface)
+    * 2.2.8 [Structure](#228-structure)
+    * 2.2.9 [Interaction](#229-interaction)
+    * 2.2.10 [State dynamics](#2210-state-dynamics)
+    * 2.2.11 [Algorithm](#2211-algorithm)
+    * 2.2.12 [Resources](#2212-resources)
+    * 2.2.13 [Physical](#2213-physical)
+    * 2.2.14 [Deployment](#2214-deployment)
+    * 2.2.15 [Concurrency](#2215-concurrency)
+    * 2.2.16 [Behavioral](#2216-behavioral)
+  * 2.3 [Design Views](#23-design-views)
 * 3 [Appendixes](#3-appendixes)
 
 ## Revision History
@@ -108,17 +107,15 @@ Interconnection, sharing, and parameterization
 <!-- TODO -->
 #### 2.2.11 Algorithm
 <!-- TODO -->
-#### 2.2.12 Interaction
+#### 2.2.12 Resources
 <!-- TODO -->
-#### 2.2.13 Resources
+#### 2.2.13 Physical
 <!-- TODO -->
-#### 2.2.14 Physical
+#### 2.2.14 Deployment
 <!-- TODO -->
-#### 2.2.15 Deployment
+#### 2.2.15 Concurrency
 <!-- TODO -->
-#### 2.2.16 Concurrency
-<!-- TODO -->
-#### 2.2.17 Behavioral
+#### 2.2.16 Behavioral
 <!-- TODO -->
 
 ### 2.3 Views
