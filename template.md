@@ -35,6 +35,7 @@ Table of Contents
     * 2.2.15 [Concurrency](#2215-concurrency)
     * 2.2.16 [Behavioral](#2216-behavioral)
   * 2.3 [Design Views](#23-design-views)
+  * 2.4 [Decisions](#24-decision)
 * 3 [Appendixes](#3-appendixes)
 
 ## Revision History
@@ -75,11 +76,11 @@ Describe what the rest of the document contains and how it is organized.
 * Reference the design views that address such concerns.
 
 ### 2.2 Selected Viewpoints
-> Identify and describe the viewpoints that were selected in order to address the stakeholders' concern identified in section 2.1. A viewpoint defines the perspective from which a design view is taken. Each selected viewpoint should state what concerns it addresses and identify the visualization language(s) it uses to do so.
+> Identify and describe the viewpoints that were selected in order to address the stakeholders' concerns identified in section 2.1. A viewpoint defines the perspective from which a design view is taken. Each selected viewpoint should state what concerns it addresses and identify the visualization language(s) it uses to do so.
 
 > For example in order to address interoperability concerns an SDD author may choose to utilize an Interface viewpoint. The author must then also choose which visualization languages are appropriate for that viewpoint and the design subject, some options may be UML Component diagrams, Interface Definition Language (IDL), or OpenAPI specification.
 
-> See IEEE 1016-1998
+> See IEEE 1016-2009 Table 1
 
 #### 2.2.1 Context
 Helps describe the design subject as a black box. It can depict the subject in terms of offered services, actors, system boundaries, and design subject's scope. Example visualization languages include UML use case diagram.
@@ -126,5 +127,7 @@ Interconnection, sharing, and parameterization
 * Identify the viewpoint of which it is an instance
 * Provide the view representation according to the viewpoint languages
 * Record the relevant design decisions made as they relate to the presented view's elements, see IEEE 42010:2011 5.8.2
+
+### 2.4 Decisions
 
 ## 3. Appendixes
