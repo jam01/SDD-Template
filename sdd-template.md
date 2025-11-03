@@ -233,13 +233,13 @@ Prepared by {{author}}
 - ID: [NNN]-{title}
 - Title: Short, descriptive name of the view.
 - Viewpoint: The viewpoint of which this view is an instance.
-- Representation: The design view representation per the viewpoint selected, e.g., natural language description or a diagram or a combination thereof.
+- Representation: The design view representation per the viewpoint and language selected, e.g., natural language description or a diagram or a combination thereof.
 - More Information: Additional context. Links to related artifacts.
 ```
 
 💡 Tips:
 - This section should contain enough information to implement the system (prescriptive architecture) or to understand how to operate or maintain the existing product (descriptive architecture).
-- If available include references to the SRS requirement IDs that the design view implements. This demonstrates how requirements are addressed by the design.
+- If available, include references to the SRS requirement IDs that the design view implements. This demonstrates how requirements are addressed by the design.
 - Reference relevant design decisions from Section 4 that influenced or resulted from this design element.
 
 ## 4. Decisions
