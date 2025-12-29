@@ -92,13 +92,13 @@ Prepared by {{author}}
 #### 2.2.1 Context
 💬 _Defines the system as a black box, identifying its boundaries and its environment._
 
-**Addresses:** System boundaries, environment actors (users, external systems) and offered services (use cases).
+**Addresses:** System boundaries, environment actors (users, external systems) and offered services (use cases).  
 **Typical Languages:** UML Use Case Diagram, C4 Context Diagram.
 
 #### 2.2.2 Composition
 💬 _Describes how the system is recursively assembled from major constituent parts (subsystems, components, or modules), and how those are organized and relate to one another_
 
-**Addresses:** Identify the major design elements; allocation of responsibilities, and localization of functionality; modularity (reuse, buy-vs-build) and integration.
+**Addresses:** Identify the major design elements; allocation of responsibilities, and localization of functionality; modularity (reuse, buy-vs-build) and integration.  
 **Typical Languages:** UML Component Diagram, Hierarchical Decomposition Diagram, UML Package (functional), Deployment (runtime) Diagram.
 
 💡 Tips:
@@ -108,7 +108,7 @@ Prepared by {{author}}
 #### 2.2.3 Logical
 💬 _Captures the static design structure of the system in terms of types and their implementation (class, interface) and their relationships._
 
-**Addresses:** Development and reuse of appropriate abstractions and their implementations; encapsulation and dependencies among entities.
+**Addresses:** Development and reuse of appropriate abstractions and their implementations; encapsulation and dependencies among entities.  
 **Typical Languages:** UML Class Diagram, UML Object Diagram.
 
 💡 Tips: 
@@ -118,7 +118,7 @@ Prepared by {{author}}
 #### 2.2.4 Physical
 💬 _Depicts the tangible system infrastructure._
 
-**Addresses:** Hardware configuration, physical topology, and physical constraints.
+**Addresses:** Hardware configuration, physical topology, and physical constraints.  
 **Typical Languages:** Hardware Block Diagram, Network Topology Diagram, Rack Layout, Cloud Infrastructure Diagram.
 
 💡 Tips:
@@ -127,7 +127,7 @@ Prepared by {{author}}
 #### 2.2.5 Structure
 💬 _Documents internal organization of components and their parts, ports, and connectors_.
 
-**Addresses:** Internal composition of complex entities; reusability of fine-grained components.
+**Addresses:** Internal composition of complex entities; reusability of fine-grained components.  
 **Typical Languages:** UML composite structure diagram, UML class diagram, UML package diagram, C4 Container diagram.
 
 💡 Tips: 
@@ -136,7 +136,7 @@ Prepared by {{author}}
 #### 2.2.6 Dependency
 💬 _Shows how design elements interconnect and access each other, illustrating import, service, or build-time relationships._
 
-**Addresses:** Integration needs and prioritization; coupling and dependencies; root cause and change impact analysis.
+**Addresses:** Integration needs and prioritization; coupling and dependencies; root cause and change impact analysis.  
 **Typical Languages:** UML Package Diagram, Dependency Graph, UML Component Diagram
 
 💡 Tips: 
@@ -145,7 +145,7 @@ Prepared by {{author}}
 #### 2.2.7 Information
 💬 _Models the persistent data structure, its relationships, and the mechanisms for access and management._
 
-**Addresses:** Data structure and semantics; persistence; metadata; data integrity; data management and access schemes.
+**Addresses:** Data structure and semantics; persistence; metadata; data integrity; data management and access schemes.  
 **Typical Languages:** Entity-Relationship Diagram, UML Class Diagram, Logical Data Model.
 
 💡 Tips: 
@@ -154,13 +154,13 @@ Prepared by {{author}}
 #### 2.2.8 Interface
 💬 _Specifies the externally visible interfaces among components, subsystems, or with external systems._
 
-**Addresses:** Interoperability through contract definition; encapsulation, and integration risks.
+**Addresses:** Interoperability through contract definition; encapsulation, and integration risks.  
 **Typical Languages:** API specifications, IDLs, function/method signature, UML Component Diagram
 
 #### 2.2.9 Interaction
 💬 _Illustrates how entities collaborate at runtime via messages: who talks to whom, in what order, and under which conditions._
 
-**Addresses:** Allocation of responsibilities; message sequencing, timing, and synchronization; error propagation; distributed components state transition logic and concurrency.
+**Addresses:** Allocation of responsibilities; message sequencing, timing, and synchronization; error propagation; distributed components state transition logic and concurrency.  
 **Typical Languages:** UML Sequence Diagram, UML Collaboration Diagram, BPMN Process Flows.
 
 💡 Tips:
@@ -170,7 +170,7 @@ Prepared by {{author}}
 #### 2.2.10 Algorithm
 💬 _Details the internal processing logic of an operation: steps, decisions, loops, and error handling, emphasizing critical or novel algorithms within the design._
 
-**Addresses:** Computational complexity; time-space processing logic; performance, determinism, and reproducibility.
+**Addresses:** Computational complexity; time-space processing logic; performance, determinism, and reproducibility.  
 **Typical Languages:** Pseudocode, flowchart, Decision Table mathematical formulation.
 
 💡 Tips: 
@@ -181,7 +181,7 @@ Prepared by {{author}}
 #### 2.2.11 State Dynamics
 💬 _Details how system or component states evolve in response to events or stimuli over time._
 
-**Addresses:** Modes/states, transitions, events/triggers, guards, entry/exit effects, concurrency regions, synchronization.
+**Addresses:** Modes/states, transitions, events/triggers, guards, entry/exit effects, concurrency regions, synchronization.  
 **Typical Languages:** UML State Machine Diagram, State Transition Table, Automata, Petri Net.
 
 💡 Tips: 
@@ -190,7 +190,7 @@ Prepared by {{author}}
 #### 2.2.12 Concurrency
 💬 _Describes how the design handles parallelism, synchronization, and coordination among concurrent entities._
 
-**Addresses:** Thread/process structure; synchronization and locking; concurrency control; event ordering; parallel execution and race conditions.
+**Addresses:** Thread/process structure; synchronization and locking; concurrency control; event ordering; parallel execution and race conditions.  
 **Typical Languages:** UML Activity Diagram, UML Sequence and State Diagram, actor model.
 
 💡 Tips:
@@ -199,7 +199,7 @@ Prepared by {{author}}
 #### 2.2.13 Patterns
 💬 _Identifies reusable design ideas and collaborations—design patterns, architectural styles, or framework templates—that guide or constrain the system’s structure and behavior._
 
-**Addresses:** Reuse of proven solutions; consistency of architectural style; collaboration roles and connectors; template-based component structures.
+**Addresses:** Reuse of proven solutions; consistency of architectural style; collaboration roles and connectors; template-based component structures.  
 **Typical Languages:** UML Composite Structure Diagram, UML Package/Class Diagram, Architecture Description Language.
 
 💡 Tips: 
@@ -208,7 +208,7 @@ Prepared by {{author}}
 #### 2.2.14 Deployment
 💬 _Describes how software entities are mapped onto the physical execution environment, what runs where and how nodes are connected_
 
-**Addresses:** Component-to-node allocation; deployment topology; communication mechanisms; distribution, replication, and scaling; operational constraints.
+**Addresses:** Component-to-node allocation; deployment topology; communication mechanisms; distribution, replication, and scaling; operational constraints.  
 **Typical Languages:** UML Deployment Diagram, Infrastructure-as-Code topology, Network Diagram, CI/CD pipeline diagrams.
 
 💡 Tips: 
@@ -217,7 +217,7 @@ Prepared by {{author}}
 #### 2.2.15 Resources
 💬 _Specifies use and management of shared or limited resources, such as memory, bandwidth, threads, or file handles._
 
-**Addresses:** Resource utilization and allocation; contention and availability; performance bottlenecks; locks and priorities; resource management strategies. 
+**Addresses:** Resource utilization and allocation; contention and availability; performance bottlenecks; locks and priorities; resource management strategies.  
 **Typical Languages:** UML Class Diagram (for resource entities), UML Real-Time Profile, UML Object Constraint Language (OCL), Resource Allocation Table.
 
 💡 Tips: 
